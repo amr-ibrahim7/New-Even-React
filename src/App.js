@@ -4,6 +4,7 @@ import {faUserGroup, faAnchor, faAlignLeft } from '@fortawesome/free-solid-svg-i
 import overViewData from './design-system/components/Overview/OverviewData';
 import CreativeSpeakers from './design-system/components/CreativeSpeakers/CreativeSpeakers';
 import speakerData from './design-system/components/CreativeSpeakers/SpeakersData';
+import './design-system/main.css'
 
 
 function App() {
