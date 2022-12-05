@@ -1,6 +1,5 @@
 import { Event, LinksWrapper, NavbarWrapper, NavContainer, NavTitle } from "./style";
-import NavLinks from "./NavLinks"
-import links from "./Links"
+import NavItems from "./NavItems";
 
 export default function Navbar() {
   return (
@@ -11,11 +10,7 @@ export default function Navbar() {
                 <NavTitle>New <Event>Event</Event></NavTitle>
             </div>
             <LinksWrapper >
-              {links.map((link, index) => {
-                return (
-                  <NavLinks navLink={link.navLink} navText={link.navText} key={index} />
-                )
-              })}
+            <NavItems />
             </LinksWrapper>
         </NavContainer>
 
