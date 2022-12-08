@@ -1,14 +1,14 @@
 import styled from "@emotion/styled";
+import theme from "../../../../design-system/config";
 
 
 
 
-import header from "../../../shared/assets/Header/intro-bg.jpg"
-import theme from "../../config";
+import header from "../../../../shared/assets/Header/intro-bg.jpg"
 
 export const HeaderWrapper = styled("section")`
     label:HeaderWrapper;
-    height: 100vh;
+    height: 600px;
     padding: 20% 0 ;
     text-align: center;
     background-size:cover;

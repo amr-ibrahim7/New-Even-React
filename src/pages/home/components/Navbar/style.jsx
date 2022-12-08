@@ -6,9 +6,10 @@ export const NavbarWrapper = styled("section")`
     label: NavbarWrapper;
     padding: 1.5rem 0;
     position: fixed;
+    z-index: 2;
     width:100%;
     color: ${theme.white};
-    background-color: ${theme.secondary};
+    background-color: ${theme.black};
 `;
 export const NavContainer = styled("div")`
     label: NavContainer;

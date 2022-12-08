@@ -10,36 +10,36 @@ const speakerData = [
         id:1,
         img: img1,
         alt: "img1",
-        name: "Ahmed",
-        job: "Quissque1"
+        name: "Jeeny Green",
+        job: "Ui Designer"
     },
     {
         id:2,
         img: img2,
         alt: "img2",
-        name: "Ameer",
-        job: "Quissque2"
+        name: "David Yoon",
+        job: "Creative Director"
     },
     {
         id:3,
         img: img3,
         alt: "img3",
-        name: "Amr",
-        job: "Quissque3"
+        name: "Je Mary lee",
+        job: "Web Specialist"
     },
     {
         id:4,
         img: img4,
         alt: "img4",
-        name: "Mohammed",
-        job: "Quissque4",
+        name: "Johnathan Doe",
+        job: "Frontend Dev",
     },
     {
         id:5,
         img: img5,
         alt: "img5",
-        name: "Waled",
-        job: "Quissque5"
+        name: "Ellite Hamiliton",
+        job: "Markitng Guru"
     },
 ];
 export default speakerData; 

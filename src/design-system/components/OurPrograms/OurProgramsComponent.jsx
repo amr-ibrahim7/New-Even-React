@@ -1,10 +1,10 @@
 import React from 'react'
-import { IconWrapper, Image, ImageWrapper, OurProgramsWrapper } from './style'
+import { Description, IconWrapper, Image, ImageWrapper, Name, OurProgramsWrapper, Title } from './style'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClock } from '@fortawesome/free-regular-svg-icons'
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 
-export default function OurPrograms({img,alt,time,roomNumber,title,name,description}) {
+export default function OurProgramsComponent({img,alt,time,roomNumber,title,name,description}) {
   return (
     <OurProgramsWrapper>
         <ImageWrapper>
@@ -13,15 +13,16 @@ export default function OurPrograms({img,alt,time,roomNumber,title,name,descript
         <div>
             <IconWrapper>
                 <div>
-           <FontAwesomeIcon size='xs' icon={faClock}/> {time}
+           <FontAwesomeIcon  size='xs' icon={faClock}/> 
+           <span>{time}</span>
                 </div>
                 <div>
-           <FontAwesomeIcon size='xs' icon={faMapMarkerAlt}/> {roomNumber}
+           <FontAwesomeIcon  size='xs' icon={faMapMarkerAlt}/> {roomNumber}
                 </div>
             </IconWrapper>
-            <h2>{title}</h2>
-            <span>{name}</span>
-            <p>{description}</p>
+            <Title>{title}</Title>
+            <Name>{name}</Name>
+            <Description>{description}</Description>
         </div>
     </OurProgramsWrapper>
   )
