@@ -4,7 +4,7 @@ import theme from "../../../../../design-system/config";
 export const Wrapper = styled("div")`
     label:Wrapper;
     display: flex;
-    height: 500px;
+    height: 400px;
     justify-content: center;
 `
 export const AccordionWrapper = styled("div")`
