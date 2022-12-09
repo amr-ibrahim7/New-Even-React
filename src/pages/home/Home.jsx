@@ -6,6 +6,7 @@ import Overview from "./components/Overview/Overview";
 import WatchVideo from "./components/WatchVideo/WatchVideo";
 import OurProgramsPages from "./components/OurPrograms";
 import RegisterHere from "./components/RegisterHere";
+import AccordionComponent from "./components/AccordionComponent/AccordionComponent";
 
 
 export default function Home() {
@@ -19,8 +20,8 @@ export default function Home() {
   <CreativeSpeakersComponent />
   <OurProgramsPages />
   <RegisterHere />
+  <AccordionComponent />
 
-  
   </>
   )
 }
