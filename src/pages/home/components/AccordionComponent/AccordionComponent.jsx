@@ -13,8 +13,8 @@ export default function AccordionComponent() {
             <Description>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, placeat, explicabo
             </Description>
-            <Accordion />
         </Wrapper>
+            <Accordion />
     </div>
   )
 }

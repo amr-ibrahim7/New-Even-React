@@ -2,11 +2,14 @@ import styled from "@emotion/styled";
 import theme from "../../../../design-system/config";
 
 export const Wrapper = styled("div")`
-    label:Wrapper;   
+    label:Wrapper;
+    text-align: center;   
     padding: 4rem 0 3rem 0;
+    margin-bottom: 2rem;
 `
 export const FirstWord = styled("span")`
     label:FirstWord;
+   
     font-size: 1.5rem;
     color: ${theme.black};
 `
