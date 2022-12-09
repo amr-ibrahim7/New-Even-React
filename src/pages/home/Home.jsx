@@ -8,6 +8,9 @@ import OurProgramsPages from "./components/OurPrograms";
 import RegisterHere from "./components/RegisterHere";
 import AccordionComponent from "./components/AccordionComponent/AccordionComponent";
 import Venue from "./components/Venue/Venue";
+import OurSponsorsComponent from "./components/OurSponsors/OurSponsors";
+import ContactUs from "./components/ContactUs/ContactUs";
+
 
 
 export default function Home() {
@@ -23,7 +26,9 @@ export default function Home() {
   <RegisterHere />
   <AccordionComponent />
   <Venue />
-
+  <OurSponsorsComponent />
+  <ContactUs />
+ 
   </>
   )
 }

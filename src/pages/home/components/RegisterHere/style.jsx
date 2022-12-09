@@ -73,6 +73,5 @@ export const RegisterButton = styled("button")`
     color: ${theme.white};
     background: ${theme.primary};
     border: none;
-   
     }
 `
