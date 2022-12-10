@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import theme from "../../../../design-system/config";
-// import theme from "design-system";
+import {theme} from "../../../../design-system/config";
+// import {theme} from "design-system";
 
 export const NavbarWrapper = styled("section")`
     label: NavbarWrapper;

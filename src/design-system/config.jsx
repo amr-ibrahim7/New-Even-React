@@ -1,4 +1,4 @@
-const theme = {
+export const theme = {
     primary : '#f2545f',
     secondary : '#565151',
     black: "#222",
@@ -7,4 +7,4 @@ const theme = {
     active: "#66ccff",
     whiteSmoke: "#f5f5f5",
 };
-export default theme;
+export const madeBy = "Amr Tolba";

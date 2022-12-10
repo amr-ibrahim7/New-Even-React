@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import venue from 'images/Venue/venue-bg.jpg'
-import theme from "../../../../design-system/config";
-
+import {theme} from "../../../../design-system/config";
 
 export const VenueHereWrapper = styled("section")`
     label:VenueHereWrapper;

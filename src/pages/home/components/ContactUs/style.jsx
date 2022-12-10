@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import theme from "../../../../design-system/config";
+import {theme} from "../../../../design-system/config";
 import contact from '../../../../shared/assets/ContactUs/contactUs-bg.jpg'
 export const ContactWrapper = styled("section")`
 label : ContactWrapper;

@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom"
-import theme from "../../../../design-system/config"
+import {theme} from "../../../../design-system/config"
 import links from "./Links"
 import NavLinks from "./NavLinks"
 
