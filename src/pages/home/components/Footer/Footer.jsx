@@ -9,7 +9,7 @@ export default function Footer() {
     <FooterWrapper>
         <div className="container">
             <div>
-                <Span>Copyright @ 2018 Your Company | Design:</Span>
+                <Span>Copyright @ 2022 Your Company | Design:</Span>
                 <MadBy>{madeBy}</MadBy>
             </div>
             
